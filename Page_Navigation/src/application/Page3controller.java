@@ -13,6 +13,7 @@ public class Page3controller implements Initializable {
 		System.out.println("I m page3");
 		System.err.println("MMMMm");
 		
+		
 	}
 
 }
