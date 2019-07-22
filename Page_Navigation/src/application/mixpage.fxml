@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="application.MixpageController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="578.0" prefWidth="974.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Page 1">
+            <content>
+              <AnchorPane fx:id="page1" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab text="page 2">
+            <content>
+              <AnchorPane fx:id="page2" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Page 3">
+               <content>
+                  <AnchorPane fx:id="page3" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
