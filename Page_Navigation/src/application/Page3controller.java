@@ -11,6 +11,7 @@ public class Page3controller implements Initializable {
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		// TODO Auto-generated method stub
 		System.out.println("I m page3");
+		System.err.println("MMMMm");
 		
 	}
 
